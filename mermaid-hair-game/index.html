@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фея-русалка: Уход за волосами</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Экран выбора цвета -->
+    <div id="color-selection" class="selection-screen">
+        <h1>Выберите цвет волос</h1>
+        <div class="color-options">
+            <div class="color-option" data-color="black" style="background: #000;"></div>
+            <div class="color-option" data-color="blond" style="background: #FAF0BE;"></div>
+            <div class="color-option" data-color="green" style="background: #4CAF50;"></div>
+            <div class="color-option" data-color="orange" style="background: #FF9800;"></div>
+            <div class="color-option" data-color="red" style="background: #F44336;"></div>
+            <div class="color-option" data-color="purple" style="background: #9C27B0;"></div>
+        </div>
+        <p>Выбрать цвет можно только один раз!</p>
+    </div>
+
+    <!-- Основной экран игры (изначально скрыт) -->
+    <div id="game-screen" class="game-container" style="display: none;">
+        <!-- ... (остальная разметка из предыдущего кода) ... -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
